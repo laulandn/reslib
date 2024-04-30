@@ -1,0 +1,30 @@
+Going to call aThisApp->start(...)...
+
+-----------------------
+ALib Libraries $VER: 6.0alpha (ANSI)
+Compiled using Gnu GCC on Feb 11 2024 at 14:32:30
+-----------------------
+NEmu::NEmu()...
+NEmu::NEmu() done.
+NEmu::setupDebugWindow().
+theWindow is 640x200
+NEmu is on an indexed color display...
+(going to set color)
+(going to clear)
+(going to focus)
+NEmu::setupDebugWindow() done.
+Going to call emu->start(...)...
+NEmu::start()...
+NEmu::handleArgs()...
+whichArg=1
+Set loadFilename to 'hello.bin'
+start() Going to create default Vfs...
+Using defaultVfs 'default DVfs'
+start() Done processing argv.
+filePartOfOriginalName is 'hello.bin'
+pathPartOfOriginalName is ''
+NEmu::handleFile('hello.bin')
+handleFile can't open 'hello.bin'!
+(done loading)
+start() returning due to quitASAP!
+emu->start(...) returned.
